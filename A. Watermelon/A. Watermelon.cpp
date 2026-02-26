@@ -69,7 +69,14 @@ const int MOD = 1e9 + 7;
 
 void solve() {
   int x = 0;
-  cpp_dump(x);
+  cin >> x;
+  if (x < 4) {
+    yn(false);
+    return;
+  }
+  yn(((x % 2) == 0));
+  // if((x % 2) == 0){
+  // }
 }
 
 int32_t main() {
